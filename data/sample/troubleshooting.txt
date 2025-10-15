@@ -1,0 +1,3 @@
+# Troubleshooting
+If embeddings model fails to download, check internet connectivity or pre-bundle the model.
+If no API key is provided, the app falls back to returning top retrieved snippets as the 'answer'.
