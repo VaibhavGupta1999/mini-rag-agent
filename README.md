@@ -66,10 +66,9 @@ pip install -r requirements.txt
 **2) (Optional) Configure LLM**
 Create `.env` (or set shell env vars):
 ```
-OPENAI_API_KEY=sk-...
-# Optional if using a local/OpenAI-compatible endpoint:
-# OPENAI_BASE_URL=http://localhost:11434/v1
-# OPENAI_MODEL=gpt-4o-mini
+GROQ_API_KEY=YOUR KEY
+OPENAI_BASE_URL=https://api.groq.com/openai/v1
+OPENAI_MODEL=llama-3.1-8b-instant
 ```
 
 **3) Build the index**
